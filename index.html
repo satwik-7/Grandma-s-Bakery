@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- css sheet -->
+<link rel="stylesheet" href="styles.css">
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/142887f440.js" crossorigin="anonymous"></script>
+
+
+    
+    <title>Grandma's Bakery</title>
+
+  </head>
+
+  <body>
+      <header id="header">
+          <!-- navigation bar -->
+        <nav class="nav navbar navbar-expand-lg px-4">
+            <a href="#" class="navbar-brand">
+                <span>
+                <i class="fa fas fa-birthday-cake fa-3x cakeicon"></i></span></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="toggler-icon"><i class="fa fas fa-bars"></i></span>
+                </button>
+            
+         <div class="collapse navbar-collapse" id="navbar">
+             <ul class="navbar-nav text-capitalise mx-auto">
+                 <li class="nav-item">
+                     <a href="#header" class="nav-link">home</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#about" class="nav-link">about us</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#store" class="nav-link">store</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cakes" class="nav-link">order</a>
+                </li>
+             </ul>
+         </div>
+         <div class="btn btn-primary text-capitalise d-none d-lg-flex align-items-center cartbtn"><span class="cartbtntext">view cart</span>
+        <span><i class="fa fas fa-shopping-cart"></i></span></div>
+
+         </nav>
+
+         <!-- banner -->
+         <div class="container-fluid">
+             <div class="row justify-items-center align-items-center height">
+                 <div class="col-10 mx-auto banner-text text-center">
+                     <h1 class="text-capitalise banner-title">welcome to grandma's Bakery</h1>
+                     <a href="#store" class="btn text-uppercase banner-link my-3">explore</a>
+                 </div>
+             </div>
+         </div>
+
+      </header>
+
+      <!-- line divider -->
+      <div class="line-divider"></div>
+
+      <!-- about us section -->
+      <section class="py-2 about" id="about">
+          <div class="container">
+          <div class="row">
+              <div class="col-10 mx-auto py-4 col-md-6 my-4 ">
+                  <h2 class="text-capitalize h2heading">about us</h2>
+                  <p class="aboutuspara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quo, cum saepe aliquam culpa mollitia corporis ipsam asperiores vero dolorum.</p>
+                  <a href="#" class="btn btn-outline-dark text-uppercase">explore</a>
+              </div>
+              <div class="col-10 mx-auto col-md-6 my-5 align-self-center img_container">
+                  <img src="./images/brownie-dessert-cake-sweet-45202.jpeg" class="img-fluid imageinaboutus" alt="">
+              </div>
+              
+          </div>
+        </div>  
+      </section>
+
+      
+
+      <!-- line divider -->
+      <div class="line-divider"></div>
+
+      <!-- store section -->
+      <section class="py4 store my-4" id="store">
+        <div class="container">
+            <div class="row storetitle text-capitalize">
+                <div class="col-10 mx-auto text-center">
+                    <h1>our store</h1>
+                </div>
+            <div class="row storebuttons">
+                <div class="col-lg-9 d-flex flex-wrap justify-content-around my-3 mx-auto">
+                    <a href="#" class="eachbutton btn btn-outline-dark text-uppercase">all</a>
+                    <a href="#" class="eachbutton btn btn-outline-dark text-uppercase">cakes</a>
+                    <a href="#" class="eachbutton btn btn-outline-dark text-uppercase">cup-cakes</a>
+                    <a href="#" class="eachbutton btn btn-outline-dark text-uppercase">candies</a>
+                    <a href="#" class="eachbutton btn btn-outline-dark text-uppercase">sweets</a>
+
+                </div>
+                <div class="row searchbar">
+                    <div class="col-lg-10 mx-auto col-md-6 my-2"><form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search items" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                      </form></div>
+                </div>
+                <!-- store items -->
+                <div class="row store-items">
+                    <div class="col-10 mx-auto col-md-6 col-lg-4 my-3 store-item justify-items-center">
+                        <div class="card img-holder">
+                            <img src="./images/banner image.jpeg" alt="" class="card-img-top store-img">
+                            <span class="cart-icon"><i class="fa fas fa-shopping-cart"></i></span>
+                        </div> 
+                            <div class="class-body d-flex justify-content-between px-4">
+                            <p>item-name</p>
+                        <p>price</p></div>     
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-lg-4 my-3 store-item">
+                        <div class="card img-holder">
+                            <img src="./images/banner image.jpeg" alt="" class="card-img-top store-img">
+                            <span class="cart-icon"><i class="fa fas fa-shopping-cart"></i></span>
+                        </div> 
+                            <div class="class-body d-flex justify-content-between px-4">
+                            <p>item-name</p>
+                        <p>price</p></div>     
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-lg-4 my-3 store-item">
+                        <div class="card img-holder">
+                            <img src="./images/banner image.jpeg" alt="" class="card-img-top store-img">
+                            <span class="cart-icon"><i class="fa fas fa-shopping-cart"></i></span>
+                        </div> 
+                            <div class="class-body d-flex justify-content-between px-4">
+                            <p>item-name</p>
+                        <p>price</p></div>     
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-lg-4 my-3 store-item">
+                        <div class="card img-holder">
+                            <img src="./images/banner image.jpeg" alt="" class="card-img-top store-img">
+                            <span class="cart-icon"><i class="fa fas fa-shopping-cart"></i></span>
+                        </div> 
+                            <div class="class-body d-flex justify-content-between px-4">
+                            <p>item-name</p>
+                        <p>price</p></div>     
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-lg-4 my-3 store-item">
+                        <div class="card img-holder">
+                            <img src="./images/banner image.jpeg" alt="" class="card-img-top store-img">
+                            <span class="cart-icon"><i class="fa fas fa-shopping-cart"></i></span>
+                        </div> 
+                            <div class="class-body d-flex justify-content-between px-4">
+                            <p>item-name</p>
+                        <p>price</p></div>     
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-lg-4 my-3 store-item">
+                        <div class="card img-holder">
+                            <img src="./images/banner image.jpeg" alt="" class="card-img-top store-img">
+                            <span class="cart-icon"><i class="fa fas fa-shopping-cart"></i></span>
+                        </div> 
+                            <div class="class-body d-flex justify-content-between px-4">
+                            <p>item-name</p>
+                        <p>price</p></div>     
+                    </div>
+                      
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- line divider -->
+    <div class="line-divider"></div>
+
+    <!-- order cake section -->
+    <div class="container">
+        <div class="row order-title">
+            <div class="col-10 mx-auto text-capitalize my-3 text-center">
+                <h1>order cake</h1>
+            </div>
+        </div>
+        <div class="row cake-items">
+            <div class="col-10 col-md-4 mx-auto justify-items-center my-4 text-center">
+                <h3 class="text-capitalize cake-heading">birthday cake</h3>
+                <img src="./images/cake-1.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-10 col-md-4 mx-auto justify-items-center my-4 text-center">
+                <h3 class="text-capitalize cake-heading">custom cake</h3>
+                <img src="./images/cake-2.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-10 col-md-4 mx-auto justify-items-center my-4 text-center">
+                <h3 class="text-capitalize cake-heading">wedding cake</h3>
+                <img src="./images/cake-3.jpeg" class="img-fluid" alt="">
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- line divider -->
+    <div class="line-divider"></div>
+
+    <!-- footer section -->
+    <div class="container-fluid footerht">
+        <div class="row footer">
+            <div class="col-10 col-md-6 mx-auto justify-items-center my-3 text-center"> 
+                <div class="row">
+                    <div class="col-10 mx-auto text-center"><h2 class="text-capitalize brand-title">grandma's bakery</h2></div>
+                </div>   
+                <div class="row social-icons">
+                    <div class="col-4 mx-auto d-flex flex-wrap text-center justify-content-center">
+                        <a href="#" class="icons"><i class="fa fas fa-facebook"></i></a>
+                    </div>
+                    <div class="col-4 mx-auto d-flex flex-wrap text-center justify-content-center">
+                        <a href="#" class="icons"><i class="fa fas fa-twitter"></i></a>
+                    </div>
+                    <div class="col-4 mx-auto d-flex flex-wrap text-center justify-content-center">
+                        <a href="#" class="icons"><i class="fa fas fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-md-6 mx-auto  justify-items-center my-3 text-center">
+                <div class="row contact-title">
+                    <div class="col-10 mx-auto justify-content-center">
+                        <h3 class="contact-title">contact us</h3>
+                    </div>
+                </div>
+                <div class="row contact-address">
+                    <div class="col-10 mx-auto d-flex flex-wrap justify-content-center">
+                        <span class="px-4"><i class="fa fas fa-map-marked-alt"></i></span>
+                        <p>address</p>
+                    </div>   
+                </div>
+                <div class="row contact-address">
+                    <div class="col-10 mx-auto d-flex flex-wrap justify-content-center">
+                        <span class="px-4"><i class="fa fas fa-phone-square"></i></span>
+                        <p>phone no.</p>
+                    </div>   
+                </div>
+                <div class="row contact-address">
+                    <div class="col-10 mx-auto d-flex flex-wrap justify-content-center">
+                        <span class="px-4"><i class="fa fas fa-envelope-square"></i></span>
+                        <p>email</p>
+                    </div>   
+                </div>
+                
+            </div>
+                
+        </div>
+    </div>
+    
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

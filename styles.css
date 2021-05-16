@@ -1,0 +1,133 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cakeicon{
+    color: pink;
+    margin: 10px 7px;
+}
+
+.navbar-toggler{
+    font-size: 2.5rem;
+    color: pink; 
+}
+
+.nav-link{
+    color: pink !important;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.nav-link:hover {
+    color: black !important;
+}
+.cartbtn{
+    background: pink !important;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    border: 0.1rem black solid;
+}
+.cartbtntext{
+    text-transform: capitalize;
+    margin-right: 1rem;
+   
+}
+/* banner */
+.height{
+    min-height: calc(100vh - 111px);
+    background: url(./images/banner\ image.jpeg) center/cover fixed no-repeat ;
+}
+.banner-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: purple;
+    font-weight: bolder;
+    padding: 0.5rem;
+    text-align: center;
+    border: 0.2rem black solid;
+}
+.banner-link{
+    font-size: 2.2rem;
+    color: black;
+    padding: 0.4rem;
+    border: 0.2rem black solid;
+    transition: all 0.5s ease-in-out !important;
+}
+.banner-link:hover{
+    background: rosybrown;
+    transform: scale(1.2);
+}
+.line-divider{
+    height: 0.4rem;
+    background: pink;
+}
+
+.h2heading{
+    color: pink;
+    font-size: 2rem;
+}
+.aboutuspara{
+    margin-top: 15px;
+}
+.img_container{
+    position: relative;
+    outline: 0.2rem pink solid;
+    padding: 0;
+}
+/* store  */
+.img-holder{
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+.store-img{
+    transition: all 0.4s ease-in-out;
+}
+.img-holder:hover .store-img{
+    transform: scale(1.2);
+}
+.cart-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+    background: pink;
+    border-top-left-radius: 25%;
+    transform: translate(100%,100%);
+    transition: 0.4s ease-in-out;
+}
+.img-holder:hover .cart-icon{
+    transform: translate(0,0);
+}
+.cart-icon:hover{
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 3rem;
+    color: pink;
+}
+.icons{
+    font-size: 2rem;
+    color: pink;
+}
+.footerht{
+    background: black;
+}
+.brand-title{
+    color: pink;
+    font-size: 2.5rem;
+}
+.contact-title{
+    text-transform: capitalize;
+    color: pink;
+    font-size: 2rem;
+}
+.contact-address{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
